@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto&family=Space+Mono&display=swap');
+</style>
+
+:root{
+	--color-amarillo: #FFC55C;
+	--color-morado:#7952FF;
+	--color-hover-nav:#FF4555;
+}
+
+body{
+	font-size: 14px;
+	font-family: lato;
+}
+
+header{
+	background-color:#000;
+	text-align: center;
+	padding:10px;
+}
+ #nav-bar{
+	background-color:#FFC55C;
+	 padding: 1px;
+}
+
+.navbar-nav i{
+	color:#fff ;
+	font-size: 45px;
+	backround-color:var(--color-amarillo);
+	transition: color 0s linear;
+}
+.navbar-nav i:hover{
+	color: #FF4555 !important;
+	transition: color 0s linear;
+}
+ .nav-link i{
+	padding: 0px !important;
+	padding-left: 15px !important;
+	transition: color 0s linear;
+	text-align: left;
+}
+.nav-link i:hover{
+	color: #FF4555 !important;
+	transition: color 0s linear;
+}
+.nav-link p:hover{
+	color: #FF4555 !important;
+	transition: color 0s linear;
+}
+.navbar-nav{
+	color: #FF4555 !important;
+	transition: color 0s linear;
+}
+
+#descubre-potencial {
+	background-image:url("../img/banner-pinturas.png");
+	background-size: cover;
+	background-position:center;
+	text-align: center;
+	color:#FFFFFF;
+	padding: 40px
+	
+}
+#hero-pin h3{
+	font-weight: 700;
+	font-size: 60px;
+	font-family: lato;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#productos-recomendados{
+	background-color:#fff;
+	padding: 80px;
+	
+
+}
+#productos-recomendados h3{
+	color:#FF4555;
+	text-align: center;
+	font-family: lato;
+	font-weight: bold;
+	
+}
+
+
+
+
+#productos-recomendados article{
+	padding: 20px 20px;
+	border-radius: 20px;
+}
+#productos-recomendados article .card img{
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 20px;
+	align-content: center;
+	max-width: 100%;
+	height: auto;
+}
+#productos-recomendados article .card p{
+	padding-top: 10px;
+	text-align: center;
+	
+}
+
+#productos-recomendados article .card p b{
+	color:#FF4555;
+
+}
+#productos-recomendados h6{
+	color:#7952FF;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#productos-recomendados .btn{
+	color:#FFFFFF;
+	background-color:#7952FF;
+	border-color:#7952FF;
+}
+
+#tutoriales{
+background-image:url("../img/banner-tutoriales.jpg");
+	background-size: cover;
+	background-position:center;
+	text-align: center;
+	color:#7952FF;
+	padding: 100px;	
+	font-size: 80px;
+	
+}
+
+#tutoriales a {
+	text-decoration: none;
+	
+	font-family: lato;
+	font-size: 80px;
+	
+}
+
+	
+
+#tutoriales h2{
+	color: #7952FF;
+	transition: color 0s ease-in;
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#tutoriales h2:hover{
+	color: #FF4555;
+	transition: color 0s ease-out;
+	
+}
+footer{
+	background-color:#1f1641;
+	text-align: center;
+	color:#FFC55C;
+	padding: 30px;
+	margin-top: 20px;
+	
+}
+ #nav-bart{
+	background-color:#FFC55C;
+	padding: 1px;
+}
+
+#vid-tutoriales-sl h1{
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFC55C;
+	margin: 20px 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+#vid-tutoriales-sl .container{
+	background-color: #FFC55C;
+	padding: 40px;
+	border-radius: 20px;
+	margin-bottom: 40px;
+}
+
+#vid-tutoriales-sl .tutorial-descr{
+	background-color: white;
+	margin-bottom: 30px;
+	text-align: left;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#vid-tutoriales-sl img{
+	border-radius: 10px;
+}
+
+#vid-tutoriales-sl .tutorial-img{
+	
+	margin-bottom: 30px;
+	margin-right: 20px;
+}
+#navbarp{
+	background-color:#FFC55C;
+	padding: 1px;
+}
+#hero-pin{
+	background-image:url("../img/header-vang.jpg");
+	background-size: cover;
+	background-position:center;
+	text-align: center;
+	color:#FFFFFF;
+	padding: 90px;
+}
+#herramientas{
+	background-size:cover;
+	background-position:center;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 90px;
+	margin-bottom: 70px;
+	
+}
+
+
+#herramientas h4{
+	color:#FFFFFF;
+}
+ .overlay{
+	padding:1% 0;
+	background-color:#FFFFFF;
+	background-image: url("../img/titulos.png");
+    background-size: 377px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: 700;
+    padding: 15px;
+	
+}
+#producto-herramientas{
+	background-color:#fff;
+	padding: 20px;
+	
+
+}
+
+#productos-herramientas article{
+	padding: 20px 20px;
+	border-radius: 20px;
+}
+#productos-herramientas .card img{
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 20px;
+	align-content: center;
+	max-width: 100%;
+	height: auto;
+}
+#productos-herramientas .card p{
+	padding-top: 10px;
+	text-align: center;
+	
+}
+
+#productos-herramientas article .card p b{
+	color:#FF4555;
+
+}
+#productos-herramientas h6{
+	color: #7952FF;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#productos-herramientas .btn{
+	color:#FFFFFF;
+	background-color:#7952FF;
+	border-color:#7952FF;
+}
+#acuarelas{
+	background-size:cover;
+	background-position:center;
+	text-align: center;
+	color:#FFFFFF;
+	font-weight: bold;
+	margin-top: 170px;
+	margin-bottom: 70px;
+}
+ 
+	
+
+#producto-acuarelas{
+	background-color:#fff;
+	padding: 20px;
+	
+	
+
+}
+
+#productos-acuarelas article{
+	padding: 20px 20px;
+	border-radius: 20px;
+}
+#productos-acuarelas .card img{
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 20px;
+	align-content: center;
+	max-width: 100%;
+	height: auto;
+}
+#productos-acuarelas .card p{
+	padding-top: 10px;
+	text-align: center;
+	
+}
+
+#productos-acuarelas article .card p b{
+	color:#FF4555;
+
+}
+#productos-acuarelas h6{
+	color:#7952FF;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#productos-acuarelas .btn{
+	color:#FFFFFF;
+	background-color:#7952FF;
+	border-color:#7952FF;
+}
+#acuarelas{
+	
+	background-size:cover;
+	background-position:center;
+	text-align: center;
+	color:#FFFFFF;
+	font-weight: bold;
+	margin-top: 170px;
+	margin-bottom: 70px;
+}
+ 
+	
+
+#producto-acuarelas{
+	background-color:#fff;
+	padding: 20px;
+	
+
+}
+
+#productos-acuarelas article{
+	padding: 20px 20px;
+	border-radius: 20px;
+}
+#productos-acuarelas .card img{
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 20px;
+	align-content: center;
+	max-width: 100%;
+	height: auto;
+}
+#productos-acuarelas .card p{
+	padding-top: 10px;
+	text-align: center;
+	
+}
+
+#productos-acuarelas article .card p b{
+	color:#FF4555;
+
+}
+#productos-acuarelas h6{
+	color:#7952FF;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#productos-acuarelas .btn{
+	color:#FFFFFF;
+	background-color:#7952FF;
+	border-color:#7952FF;
+}
+#oleo{
+	background-image:url();
+	background-size:cover;
+	background-position:center;
+	text-align: center;
+	color:#FFFFFF;
+	font-weight: bold;
+	margin-bottom: 70px;
+	margin-top: 150px;
+	
+}
+ 
+	
+
+#producto-oleo{
+	background-color:#fff;
+	padding: 20px;
+	
+
+}
+
+#productos-oleo article{
+	padding: 20px 20px;
+	border-radius: 20px;
+}
+#productos-oleo .card img{
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 20px;
+	align-content: center;
+	max-width: 100%;
+	height: auto;
+}
+#productos-oleo .card p{
+	padding-top: 10px;
+	text-align: center;
+	
+}
+
+#productos-oleo article .card p b{
+	color:#FF4555;
+
+}
+#productos-oleo h6{
+	color:#7952FF;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#productos-oleo .btn{
+	color:#FFFFFF;
+	background-color:#7952FF;
+	border-color:#7952FF;
+}
+
+
