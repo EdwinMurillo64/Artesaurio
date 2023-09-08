@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Sigmar+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto&family=Space+Mono&display=swap');
-</style>
 
 :root{
 	--color-amarillo: #FFC55C;
@@ -14,6 +13,53 @@ body{
 	font-family: lato;
 }
 
+body .btn-primary{
+	background-color:var(--color-amarillo);
+	border-style: none;
+	margin: 20px 20px;
+	font-size: 24px;
+	border-radius: 10px;
+	transition: color 0s linear;
+	bs-btn-color: #fff;
+    bs-btn-bg: #FF4555;
+    bs-btn-border-color: #FF4555;
+    bs-btn-hover-color: #fff;
+    bs-btn-hover-bg: #FF4555;
+    bs-btn-hover-border-color: #FF4555;
+    bs-btn-focus-shadow-rgb: 49,132,253;
+    bs-btn-active-color: #fff;
+    bs-btn-active-bg: #FF4555;
+    bs-btn-active-border-color: #FF4555;
+    bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    bs-btn-disabled-color: #fff;
+    bs-btn-disabled-bg: #FF4555;
+    bs-btn-disabled-border-color: #FF4555;
+}
+
+
+.btn-primary {
+    --bs-btn-color: #fff!important;
+    --bs-btn-bg: #FF4555!important;
+    --bs-btn-border-color: #FF4555!important;
+    --bs-btn-hover-color: #fff!important;
+    --bs-btn-hover-bg: #FF4555!important;
+    --bs-btn-hover-border-color: #FF4554!important;
+    --bs-btn-focus-shadow-rgb: 49,132,253!important;
+    --bs-btn-active-color: #fff!important;
+    --bs-btn-active-bg: #FF4555!important;
+    --bs-btn-active-border-color: #FF4555!important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125)!important;
+    --bs-btn-disabled-color: #fff!important;
+    --bs-btn-disabled-bg: #FF4555!important;
+    --bs-btn-disabled-border-color: #FF4555!important;
+}
+.form-check-input:checked {
+    background-color: #FF4555!important;
+    border-color: #FF4555!important;
+}
+#cuenta i:hover{
+	background-color: #FF4555!important;
+}
 header{
 	background-color:#000;
 	text-align: center;
@@ -54,7 +100,7 @@ header{
 }
 
 #descubre-potencial {
-	background-image:url("../img/banner-pinturas.png");
+	background-image:url("../img/potencial-banner.png");
 	background-size: cover;
 	background-position:center;
 	text-align: center;
@@ -158,7 +204,7 @@ footer{
 	text-align: center;
 	color:#FFC55C;
 	padding: 30px;
-	margin-top: 20px;
+	
 	
 }
  #nav-bart{
@@ -201,6 +247,23 @@ footer{
 	margin-bottom: 30px;
 	margin-right: 20px;
 }
+.play{
+	position: absolute;
+    top:0;
+	
+font-size: 50px;
+	color: #000;
+	width:100%;
+	height:100%;
+text-align: center;
+display: grid;
+		align-content:center;
+}
+
+.play:hover{
+	color: #FF4555;
+
+}
 #navbarp{
 	background-color:#FFC55C;
 	padding: 1px;
@@ -212,6 +275,22 @@ footer{
 	text-align: center;
 	color:#FFFFFF;
 	padding: 90px;
+}
+
+#herodibujo-pin{
+	background-image:url("../img/dibujo-prueba.jpg");
+	background-size: cover;
+	background-position:center;
+	text-align: center;
+	color:#FFFFFF;
+	padding: 90px;
+}
+
+#herodibujo-pin h3{
+	font-weight: 700;
+	font-size: 60px;
+	font-family: lato;
+	text-shadow: 1px 1px 1px #000;
 }
 #herramientas{
 	background-size:cover;
@@ -235,7 +314,6 @@ footer{
     background-repeat: no-repeat;
     background-position: center;
     font-weight: 700;
-    padding: 15px;
 	
 }
 #producto-herramientas{
@@ -435,4 +513,111 @@ footer{
 	border-color:#7952FF;
 }
 
+#cuenta{
+	background-image: url("../img/fondo-usuario.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 60px;
+	
+}
 
+#cuenta h1{
+	color: var(--color-amarillo);
+	text-align: center;
+}
+
+#cuenta .img{
+	background-color: black;
+	padding: 80px;
+}
+
+#cuenta .inputs{
+	background-color: white;
+	padding: 20px;
+}
+
+
+#cuenta i.lab{
+	font-size: 34px;
+	color: black;
+	text-align: center;
+	margin: 0px 30px;
+	background-color: var(--color-amarillo);
+	border-radius: 100%;
+	padding: 5px;
+}
+#video{
+	color:#FF4555;
+	font-weight:bold;
+	text-align: center;
+	margin: 30px;
+}
+#video h2{
+	padding: 30px;
+		font-family: lato;
+	text-align: center;
+	font-weight: bold;
+}
+#materiales h2{
+	color:#FFC55C;
+	text-align: center;
+	margin-bottom:40px;
+	font-weight: bold;
+		font-family: lato;
+}
+#materiales img{
+	border-radius: 20px;
+	margin-left: 40px;
+}
+#materiales .horizontal-card{
+	margin-bottom: 30px;
+}
+.horizontal-card {
+  position: relative;
+  display: flex;
+  border: 1px solid gray;
+	height:200px;
+	border-radius: 20px;
+	padding: 30px;
+ 
+}
+
+.horizontal-card-body {
+  display: flex;
+  flex-direction: column;
+  margin-left:30px;
+	padding:10px;
+	text-align: left;
+		font-family: lato;
+}
+.horizontal-card h4{
+	color:#FF4555;
+	text-align: left;
+		font-weight:bold;
+	margin-top: 30px;
+		font-family: lato;
+}
+
+#materiales .icon-absolute{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+#materiales .las{
+	
+	right: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+font-size: 50px;
+	
+}
+.horizontal-card  .boceto{
+	color:#7952FF;
+	text-align: left
+}
+.horizontal-card  .colores{
+	color:#FFC55C;
+	text-align: left
+}
