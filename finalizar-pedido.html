@@ -11,7 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="Keywords" content="Arte, materiales, dibujo, tutoriales, manualidades, pinceles, sketchbook, tradicional, productos, comprar, artesaurio, comercio, lapices, sketch,  boceto, pintura, pintor, aprender">
 <meta name="Description" content="Artesaurio es una pagina web de comercio electronico enfocada en vender productos relacionados al arte tradicional y en su conjunto ayudar a las pesronas a aprender a utilizar dichos productos mediante tutoriales interactivos">
-<title>Crear-cuenta</title>
+<title>finalizar-pedido</title>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
 		<a href="index.html"><img src="img/Recurso logo-header.png" width="30%" alt="artesaurio logo" class="mb-2"></a>
 		 </section>
 </header>
-		
+	
 <section id="nav-bar">
         <div class="container-fluid mt-2">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -60,47 +60,30 @@ aria-label="Toggle navigation">
 	</div>
 	</div>
                 <li class="nav-item">
-                   <span style="cursor:pointer" onclick="openNav()"><i class="las la-shopping-cart"></i></span>
+                 <span style="cursor:pointer" onclick="openNav()"><i class="las la-shopping-cart"></i></span>
                 </li>
 				 
 				</ul>
             </div>
           </nav>
           </div>
-	</section>
-<div id="myNav" class="overlay-compras">
-		
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-carrito">
-		<div class="container">
-	  <h2>Tu carrito</h2>	
-	  <div class="comprasicon">
-		  <i class="las la-shopping-bag"></i>
-		</div>
-		<h5>Carrito vacio, continúa comprando</h5>
-	  </div>
-		</div>
-	</div>	
-	<section id="cuenta">
-		<div class="container">
-			<div class="row">
-				<article class="col-lg-5 col-sm-12 col-12 img">
-					<img src="img/artesaurio-login.png" alt="logo de artesaurio" width="100%">
-				</article>
-				<article class="col-lg-7 col-sm-12 col-12 inputs">
-					<h1> Iniciar Sesión </h1>
-					<input type="text" name="nombre-usuario" class="form-control mt-4" required placeholder="Nombre de usuario">
-					<input type="password" name="contraseña" class="form-control mt-4" required placeholder="Contraseña">
+</section>
+	
+	<section id="completo">
+		<div class="card">
+			<div class="card-body">
+			
+					<h3>¡Su pedido ha sido completado!</h3>
 				
+					
+			        
 					<div style="text-align: center" class="mt-5">
-					<a href="index.html" class="btn btn-primary"> Iniciar sesión </a>
-					<a href="crear-cuenta.html" class="btn btn-primary"> No tengo cuenta </a>
+					
+					<a href="index.html" class="btn btn-primary"> Aceptar </a>
 					</div>
-					<div style="text-align: center" class="mt-4">
-						<i class="lab la-google"></i>
-						<i class="lab la-facebook"></i>
-						<i class="lab la-instagram"></i>
-					</div>
+						 
+					
+					
 							
 				</article>
 			</div>
@@ -125,17 +108,7 @@ aria-label="Toggle navigation">
 	</footer>
 
 
-
 		<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script>
-function openNav() {
-  document.getElementById("myNav").style.width = "25%";
-}
-
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>
-	</body>
+</body>
 </html>

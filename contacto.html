@@ -11,7 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="Keywords" content="Arte, materiales, dibujo, tutoriales, manualidades, pinceles, sketchbook, tradicional, productos, comprar, artesaurio, comercio, lapices, sketch,  boceto, pintura, pintor, aprender">
 <meta name="Description" content="Artesaurio es una pagina web de comercio electronico enfocada en vender productos relacionados al arte tradicional y en su conjunto ayudar a las pesronas a aprender a utilizar dichos productos mediante tutoriales interactivos">
-<title>Crear-cuenta</title>
+<title>contacto</title>
 </head>
 
 <body>
@@ -50,7 +50,7 @@ aria-label="Toggle navigation">
                   <li class="nav-item">
                   <a class="nav-link" href="iniciar-sesion.html"><i class="las la-user"></i></a>
                 </li>
-                <div class="searchbar">
+               <div class="searchbar">
 	
 	<div class="box">
 	<input type="text" placeholder="Buscar...">
@@ -60,50 +60,57 @@ aria-label="Toggle navigation">
 	</div>
 	</div>
                 <li class="nav-item">
-                   <span style="cursor:pointer" onclick="openNav()"><i class="las la-shopping-cart"></i></span>
+                    <span style="cursor:pointer" onclick="openNav()"><i class="las la-shopping-cart"></i></span>
                 </li>
 				 
 				</ul>
             </div>
           </nav>
           </div>
+</section>
+	<section id="cart">
+
 	</section>
-<div id="myNav" class="overlay-compras">
-		
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-carrito">
-		<div class="container">
-	  <h2>Tu carrito</h2>	
-	  <div class="comprasicon">
-		  <i class="las la-shopping-bag"></i>
-		</div>
-		<h5>Carrito vacio, continúa comprando</h5>
-	  </div>
-		</div>
-	</div>	
-	<section id="cuenta">
-		<div class="container">
+
+	
+	
+	<section id="contacto">
+		<div class="card">
+			<div class="card-body">
 			<div class="row">
 				<article class="col-lg-5 col-sm-12 col-12 img">
-					<img src="img/artesaurio-login.png" alt="logo de artesaurio" width="100%">
+					<h3> Seleccione su dirección </h3>
+					<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.4922132745883!2d-87.1766994269426!3d14.048086886375392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6fbcfacdb96c17%3A0x94999a679eabaa4f!2sUniversidad%20Tecnol%C3%B3gica%20Centroamericana%20UNITEC!5e0!3m2!1sen!2shn!4v1694663270634!5m2!1sen!2shn" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
 				</article>
-				<article class="col-lg-7 col-sm-12 col-12 inputs">
-					<h1> Iniciar Sesión </h1>
-					<input type="text" name="nombre-usuario" class="form-control mt-4" required placeholder="Nombre de usuario">
-					<input type="password" name="contraseña" class="form-control mt-4" required placeholder="Contraseña">
 				
+				<article class="col-lg-7 col-sm-12 col-12 inputs">
+					
+				
+					<div class="row">
+			         <article class="col-lg-6 col-sm-12 col-12 inputs">
+					<br><br><br><br>
+					<input type="text" name="colonia" class="form-control mt-4" required placeholder="Colonia">
+						</article>
+					 <article class="col-lg-6 col-sm-12 col-12 inputs">
+						 <br><br><br><br>
+				     <input type="text" name="no-casa" class="form-control mt-4" required placeholder="No.Casa">
+						</article>
+						</div>
+					
+					<div class="descripcion">
+					<input type="text" name="descripcion" class="form-control mt-4" required placeholder="Descripción general">
+				</div>
 					<div style="text-align: center" class="mt-5">
-					<a href="index.html" class="btn btn-primary"> Iniciar sesión </a>
-					<a href="crear-cuenta.html" class="btn btn-primary"> No tengo cuenta </a>
+					
+					<a href="finalizar-pedido.html" class="btn btn-primary"> Finalizar perdido </a>
 					</div>
-					<div style="text-align: center" class="mt-4">
-						<i class="lab la-google"></i>
-						<i class="lab la-facebook"></i>
-						<i class="lab la-instagram"></i>
-					</div>
+						 
+					
+					
 							
 				</article>
 			</div>
+		</div>
 		</div>
 	</section>
 	
@@ -128,14 +135,6 @@ aria-label="Toggle navigation">
 
 		<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script>
-function openNav() {
-  document.getElementById("myNav").style.width = "25%";
-}
-
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>
-	</body>
+</body>
 </html>
+

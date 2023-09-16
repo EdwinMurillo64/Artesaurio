@@ -1,15 +1,16 @@
 <!doctype html>
 <html>
 <head>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <meta charset="utf-8">
-<link href="css/style.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-custom.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+<link href="css/style.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="utf-8">
+<meta name="Keywords" content="Arte, materiales, dibujo, tutoriales, manualidades, pinceles, sketchbook, tradicional, productos, comprar, artesaurio, comercio, lapices, sketch,  boceto, pintura, pintor, aprender">
+<meta name="Description" content="Artesaurio es una pagina web de comercio electronico enfocada en vender productos relacionados al arte tradicional y en su conjunto ayudar a las pesronas a aprender a utilizar dichos productos mediante tutoriales interactivos">
 <title>pinturas</title>
 </head>
 <body>  
@@ -20,7 +21,7 @@
 	 
 </header>
 		
-<section id="navbarp">
+<section id="nav-bar">
         <div class="container-fluid mt-2">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
           
@@ -35,13 +36,13 @@ aria-label="Toggle navigation">
             <div class="collapse navbar-collapse" id="navbar">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="pinturas.html" ><p>Pinturas</p> </a>
+                  <a class="nav-link" href="pinturas.html"><p>Pinturas</p></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="dibujo.html"><p>Dibujo</p></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="tutoriales.html"><p>Tutoriales</p> </a>
+                  <a class="nav-link" href="tutoriales.html"><p>Tutoriales</p></a>
                 </li>
 				</ul>
 				  
@@ -49,11 +50,17 @@ aria-label="Toggle navigation">
                   <li class="nav-item">
                   <a class="nav-link" href="iniciar-sesion.html"><i class="las la-user"></i></a>
                 </li>
+                <div class="searchbar">
+	
+	<div class="box">
+	<input type="text" placeholder="Buscar...">
+		<a href="#">
+	<i class="las la-search"></i>
+		</a>
+	</div>
+	</div>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="las la-search"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="las la-shopping-cart"></i></a>
+                    <span style="cursor:pointer" onclick="openNav()"><i class="las la-shopping-cart"></i></span>
                 </li>
 				 
 				</ul>
@@ -61,6 +68,24 @@ aria-label="Toggle navigation">
           </nav>
           </div>
 </section>
+	<section id="cart">
+
+	</section>
+
+	<div id="myNav" class="overlay-compras">
+		
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-carrito">
+		<div class="container">
+	  <h2>Tu carrito</h2>	
+	  <div class="comprasicon">
+		  <i class="las la-shopping-bag"></i>
+		</div>
+		<h5>Carrito vacio, continúa comprando</h5>
+	  </div>
+		</div>
+	</div>	
+	
    <section id="hero-pin">
 	   <div class="container-fluid">
 		   <h3>Pinturas</h3>
@@ -79,7 +104,7 @@ aria-label="Toggle navigation">
 				    <img src="img/kit-pinceles-arteza.jpg" style="max-width: 100%; height: auto;" alt="pinceles">
                     <h6>L.200.0</h6>
 					  <p><b> Arteza</b> - Kit de pinceles. </p>
-					  <a href="#" class="btn btn-warning">Agregar a carrito </a>
+					  <a href="productos.html" class="btn btn-warning">Agregar a carrito </a>
                   </div>
 				</article>
 				<article class="col-lg-4 col-sm-12 col-12">
@@ -115,7 +140,7 @@ aria-label="Toggle navigation">
 				    <img src="img/kit-pinturas-1.jpg" style="max-width: 100%; height: auto;" alt="pintura acrilica">
                     <h6>L.300.0</h6>
 					  <p><b> Apple Barrel</b> - juego de pintura acrilica.</p>
-					  <a href="#" class="btn btn-warning">Agregar a carrito </a>
+					  <a href="productos.html" class="btn btn-warning">Agregar a carrito </a>
                   </div>
 				</article>
 				<article class="col-lg-4 col-sm-12 col-12">
@@ -150,7 +175,7 @@ aria-label="Toggle navigation">
 				    <img src="img/kit-pinturas-oleo-liquidex.jpg" style="max-width: 100%; height: auto;" alt="botes de pintura">
                     <h6>L.200.0</h6>
 					  <p><b> Liquidex </b> - Super kit pinturas de oleo</p>
-					  <a href="#" class="btn btn-warning">Agregar a carrito </a>
+					  <a href="productos.html" class="btn btn-warning">Agregar a carrito </a>
                   </div>
 				</article>
 				<article class="col-lg-4 col-sm-12 col-12">
@@ -189,7 +214,15 @@ aria-label="Toggle navigation">
 		
 		</div>
 	</footer>
-	
+	<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "25%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
 		<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	
